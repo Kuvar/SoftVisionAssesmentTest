@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SoftVisionAssesmentTest by packages]">
+  <test thread-count="5" name="com.softVisionAssesment.qa.testCases(failed)">
+    <classes>
+      <class name="com.softVisionAssesment.qa.testCases.LoginPasswordPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.softVisionAssesment.qa.testCases.LoginPasswordPageTest -->
+      <class name="com.softVisionAssesment.qa.testCases.LoginUsernamePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.softVisionAssesment.qa.testCases.LoginUsernamePageTest -->
+    </classes>
+  </test> <!-- com.softVisionAssesment.qa.testCases(failed) -->
+</suite> <!-- Failed suite [SoftVisionAssesmentTest by packages] -->
